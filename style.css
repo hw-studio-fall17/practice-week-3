@@ -1,1 +1,28 @@
+.trick {
+	Color:black;
+}
+body {
+	background-color: green;
+}
 
+.speech-bubble {
+	position: relative;
+	background: #ff0000;
+	border-radius: .4em;
+}
+
+.puppy-thought {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 57px solid transparent;
+	border-bottom-color: #ff0000;
+	border-top: 0;
+	border-left: 0;
+	margin-left: -28.5px;
+	margin-top: -57px;
+}
+	
